@@ -10,10 +10,16 @@ website:
       - text: Home
         href: index.qmd
       - text: Projects
-        href: projects.qmd
-      - text: Resume
-        href: resume.qmd
-        
+        href: projects/
+      - text: Posts
+        href: posts/
+      - text: Books
+        href: books.qmd
+      - text: Photography
+        href: photography.qmd
+      - text: Events
+        href: events.qmd
+
     right:
       - about.qmd
       - icon: github
@@ -23,7 +29,7 @@ website:
 format:
   html:
     theme:
-      - cosmo
+      - lux
       - brand
     css: styles.css
 
