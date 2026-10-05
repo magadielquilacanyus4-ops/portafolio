@@ -4,7 +4,9 @@ project:
 website:
   title: "Portafolio_test"
   navbar:
-    left: 
+    background: "#193B59"
+    foreground: "#ffffff"
+    left:
       - text: Home
         href: index.qmd
       - text: Projects
