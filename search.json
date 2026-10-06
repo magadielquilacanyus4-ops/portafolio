@@ -1,17 +1,59 @@
 [
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "projects/proyecto-3/index.html",
+    "href": "projects/proyecto-3/index.html",
+    "title": "[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI",
     "section": "",
-    "text": "No matching items"
+    "text": "Proyecto de ejemplo. Este archivo es un marcador de posición: reemplázalo con tu proyecto real (o borra la carpeta projects/proyecto-3/)."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "projects/proyecto-1/index.html",
+    "href": "projects/proyecto-1/index.html",
+    "title": "[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "Proyecto de ejemplo. Este archivo es un marcador de posición: reemplázalo con tu proyecto real (o borra la carpeta projects/proyecto-1/)."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 4, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 1, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nMagadiel Quilacan\n",
+    "section": "",
+    "text": "[PROPUESTA DE VALOR: ej. “Científico de datos especializado en …”]\n[SUBTÍTULO: frase breve de 1 o 2 líneas con tu experiencia y resultados]"
+  },
+  {
+    "objectID": "index.html#presentación",
+    "href": "index.html#presentación",
+    "title": "\nMagadiel Quilacan\n",
+    "section": "Presentación",
+    "text": "Presentación\n[SALUDO: un párrafo corto presentándote, ej. “¡Hola! Soy Magadiel, …”]\n\n[Perfil o especialidad]: [detalle]\n[Años de experiencia] como [rol]\nFormación en [carrera / institución]\nCertificaciones: [certificación 1], [certificación 2]\nResuelvo problemas de [tipo de problemas]\nDomino [herramienta 1], [herramienta 2] y [herramienta 3]"
+  },
+  {
+    "objectID": "index.html#herramientas",
+    "href": "index.html#herramientas",
+    "title": "\nMagadiel Quilacan\n",
+    "section": "Herramientas",
+    "text": "Herramientas\n\n\n  \n    \n      Excel\n      Python\n      SQL\n      Power BI\n      Tableau\n      R\n      Git\n    \n    \n      Excel\n      Python\n      SQL\n      Power BI\n      Tableau\n      R\n      Git"
+  },
+  {
+    "objectID": "index.html#proyectos",
+    "href": "index.html#proyectos",
+    "title": "\nMagadiel Quilacan\n",
+    "section": "Proyectos",
+    "text": "Proyectos\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI\n\n\n\nejemplo\n\npower bi\n\nvisualización\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\nSep 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes\n\n\n\nejemplo\n\nmachine learning\n\npython\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas\n\n\n\nejemplo\n\npython\n\neda\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\nMar 1, 2026\n\n\n\n\n\n\nNo matching items\n\n\nVer todos los proyectos"
   },
   {
     "objectID": "about.html",
@@ -21,24 +63,24 @@
     "text": "About this blog"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Portafolio_test",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "Posts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 4, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 1, 2026\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 4, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 1, 2026\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI\n\n\n\nejemplo\n\npower bi\n\nvisualización\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\nSep 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes\n\n\n\nejemplo\n\nmachine learning\n\npython\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas\n\n\n\nejemplo\n\npython\n\neda\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\nMar 1, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "projects/proyecto-2/index.html",
+    "href": "projects/proyecto-2/index.html",
+    "title": "[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Proyecto de ejemplo. Este archivo es un marcador de posición: reemplázalo con tu proyecto real (o borra la carpeta projects/proyecto-2/)."
   }
 ]
