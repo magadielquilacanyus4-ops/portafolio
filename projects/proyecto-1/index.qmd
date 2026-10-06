@@ -1,0 +1,9 @@
+---
+title: "[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas"
+description: "Proyecto de ejemplo — reemplázame con la descripción real de tu proyecto."
+date: "2026-03-01"
+categories: [ejemplo, python, eda]
+image: thumbnail.svg
+---
+
+> **Proyecto de ejemplo.** Este archivo es un marcador de posición: reemplázalo con tu proyecto real (o borra la carpeta `projects/proyecto-1/`).

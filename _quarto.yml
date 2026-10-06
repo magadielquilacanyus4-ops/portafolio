@@ -4,20 +4,23 @@ project:
 website:
   title: "Portafolio_test"
   navbar:
+    logo: logo_maga.png
+    logo-alt: "Magadiel - Inicio"
+    title: false
     background: "#193B59"
     foreground: "#ffffff"
     left:
       - text: Home
         href: index.qmd
-      - text: Projects
+      - text: Proyectos
         href: projects/
-      - text: Posts
+      - text: Blog
         href: posts/
-      - text: Books
+      - text: Libros
         href: books.qmd
-      - text: Photography
+      - text: Fotografias
         href: photography.qmd
-      - text: Events
+      - text: Eventos
         href: events.qmd
 
     right:

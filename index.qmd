@@ -1,12 +1,98 @@
 ---
-title: "Portafolio_test"
+pagetitle: "Magadiel Quilacan | Ciencia de datos"
+page-layout: article
+toc: false
+resources:
+  - images/
 listing:
-  contents: posts
+  id: home-projects
+  contents: "projects/*/index.qmd"
+  type: grid
   sort: "date desc"
-  type: default
-  categories: true
+  max-items: 3
+  fields: [image, title, description, date, categories]
+  categories: false
   sort-ui: false
   filter-ui: false
-page-layout: full
-title-block-banner: true
+  image-height: 180px
 ---
+
+:::: {.hero .column-screen}
+::: hero-content
+[Magadiel Quilacan]{.hero-title role="heading" aria-level="1"}
+
+[Científico de datos especializado en análisis de industrias]{.hero-usp}
+
+[\[SUBTÍTULO: frase breve de 1 o 2 líneas con tu experiencia y resultados\]]{.hero-subtitle}
+:::
+::::
+
+:::::: {.presentacion .grid}
+:::: {.g-col-12 .g-col-md-4 .presentacion-photo}
+![](images/profile.webp){.profile-img fig-alt="Foto de Magadiel Quilacan"}
+
+::: contact-links
+[Magadiel.1999\@gmail.com](mailto:magadiel.1999@gmail.com){.contact-email}
+
+[LinkedIn](https://www.linkedin.com/in/magadiel-quilacan){.social-icon .social-linkedin target="_blank"} [GitHub](https://github.com/magadielquilacanyus4-ops){.social-icon .social-github target="_blank"}
+:::
+::::
+
+::: {.g-col-12 .g-col-md-8 .presentacion-text}
+## Presentación
+
+\[SALUDO: un párrafo corto presentándote, ej. "¡Hola! Soy Magadiel, ..."\]
+
+- **\[Perfil o especialidad\]**: \[detalle\]
+- **\[Años de experiencia\]** como **\[rol\]**
+- Formación en **\[carrera / institución\]**
+- Certificaciones: **\[certificación 1\]**, **\[certificación 2\]**
+- Resuelvo problemas de **\[tipo de problemas\]**
+- Domino **\[herramienta 1\]**, **\[herramienta 2\]** y **\[herramienta 3\]**
+:::
+::::::
+
+::: tools-section
+## Herramientas
+
+```{=html}
+<!--
+  Logos: agrega un archivo por herramienta en images/tools/ (SVG o PNG transparente).
+  Para activar cada logo, reemplaza el <span class="tool-placeholder"> por la línea <img> comentada,
+  en ambos grupos (el segundo grupo es un duplicado necesario para el bucle infinito).
+-->
+<div class="tools-carousel" aria-label="Herramientas de trabajo">
+  <div class="tools-track">
+    <ul class="tools-group">
+      <li><span class="tool-placeholder">Excel</span><!-- <img src="images/tools/excel.svg" alt="Logo de Microsoft Excel"> --></li>
+      <li><span class="tool-placeholder">Python</span><!-- <img src="images/tools/python.svg" alt="Logo de Python"> --></li>
+      <li><span class="tool-placeholder">SQL</span><!-- <img src="images/tools/sql.svg" alt="Logo de SQL"> --></li>
+      <li><span class="tool-placeholder">Power BI</span><!-- <img src="images/tools/powerbi.svg" alt="Logo de Power BI"> --></li>
+      <li><span class="tool-placeholder">Tableau</span><!-- <img src="images/tools/tableau.svg" alt="Logo de Tableau"> --></li>
+      <li><span class="tool-placeholder">R</span><!-- <img src="images/tools/r.svg" alt="Logo del lenguaje R"> --></li>
+      <li><span class="tool-placeholder">Git</span><!-- <img src="images/tools/git.svg" alt="Logo de Git"> --></li>
+    </ul>
+    <ul class="tools-group" aria-hidden="true">
+      <li><span class="tool-placeholder">Excel</span><!-- <img src="images/tools/excel.svg" alt=""> --></li>
+      <li><span class="tool-placeholder">Python</span><!-- <img src="images/tools/python.svg" alt=""> --></li>
+      <li><span class="tool-placeholder">SQL</span><!-- <img src="images/tools/sql.svg" alt=""> --></li>
+      <li><span class="tool-placeholder">Power BI</span><!-- <img src="images/tools/powerbi.svg" alt=""> --></li>
+      <li><span class="tool-placeholder">Tableau</span><!-- <img src="images/tools/tableau.svg" alt=""> --></li>
+      <li><span class="tool-placeholder">R</span><!-- <img src="images/tools/r.svg" alt=""> --></li>
+      <li><span class="tool-placeholder">Git</span><!-- <img src="images/tools/git.svg" alt=""> --></li>
+    </ul>
+  </div>
+</div>
+```
+:::
+
+::::: projects-section
+## Proyectos
+
+::: {#home-projects}
+:::
+
+::: projects-more
+[Ver todos los proyectos](projects/index.qmd){.btn .btn-primary .projects-btn}
+:::
+:::::

@@ -1,0 +1,9 @@
+---
+title: "[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI"
+description: "Proyecto de ejemplo — reemplázame con la descripción real de tu proyecto."
+date: "2026-09-01"
+categories: [ejemplo, power bi, visualización]
+image: thumbnail.svg
+---
+
+> **Proyecto de ejemplo.** Este archivo es un marcador de posición: reemplázalo con tu proyecto real (o borra la carpeta `projects/proyecto-3/`).
