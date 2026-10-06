@@ -27,10 +27,10 @@
   padding: 3rem 1.5rem;
   color: #fff;
   text-align: center;
-  /* overlay + optional photo + fallback gradient (visible when hero.jpg is missing) */
+  /* overlay + optional photo + fallback gradient (visible when hero-image.jpg is missing) */
   background:
     linear-gradient(var(--hero-overlay), var(--hero-overlay)),
-    url("images/hero.jpg") center / cover no-repeat,
+    url("images/hero-image.jpg") center / cover no-repeat,
     linear-gradient(135deg, var(--brand-dark), var(--brand-light));
 }
 
@@ -43,7 +43,7 @@
   margin: 0 0 1rem;
   color: #fff;
   font-family: var(--bs-headings-font-family, inherit);
-  font-size: clamp(2.2rem, 6vw, 3.8rem);
+  font-size: clamp(1.8rem, 4.5vw, 3.8rem);
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.08em;
@@ -137,8 +137,13 @@
   margin-right: 0.35rem;
 }
 
+/* link text stays in the HTML for screen readers; only the icon is visible */
 .social-icon {
   margin: 0 0.4rem;
+  font-size: 0;
+}
+
+.social-icon::before {
   font-size: 1.6rem;
 }
 
