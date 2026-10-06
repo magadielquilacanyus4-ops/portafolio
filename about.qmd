@@ -4,12 +4,12 @@ image: maga.webp
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/magadiel_ale20
     - icon: linkedin
       text: LinkedIn
-      href: www.linkedin.com/in/magadiel-quilacan
+      href: https://www.linkedin.com/in/magadiel-quilacan
     - icon: github
       text: Github
       href: https://github.com/magadielquilacanyus4-ops
