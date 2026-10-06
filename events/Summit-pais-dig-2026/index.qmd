@@ -1,0 +1,12 @@
+---
+title: "Summit pais digital 2026"
+description: "Encuentro de economía y cultura digital más importante
+en Latinoamérica."
+date: "2026-10-07"
+categories: [conferencia]
+image: Summit-2025--6.jpg
+---
+
+> **Evento de ejemplo.** Reemplaza este archivo con un evento real o borra la carpeta `events/evento-ejemplo/`.
+
+Escribe aquí tu experiencia en el evento. Si agregas una imagen (por ejemplo `![](foto.jpg)`), la primera imagen se usará como miniatura en la página de eventos, igual que en el blog.

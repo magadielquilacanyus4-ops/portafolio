@@ -1,6 +1,8 @@
 project:
   type: website
 
+lang: es
+
 website:
   title: "Portafolio_test"
   navbar:
@@ -21,7 +23,7 @@ website:
       - text: Fotografias
         href: photography.qmd
       - text: Eventos
-        href: events.qmd
+        href: events/
 
     right:
       - about.qmd
