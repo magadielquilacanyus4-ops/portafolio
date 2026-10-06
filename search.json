@@ -25,7 +25,7 @@
     "href": "posts/index.html",
     "title": "Posts",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 4, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 1, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\n4 oct 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n1 oct 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo hay resultados"
   },
   {
     "objectID": "index.html",
@@ -53,7 +53,14 @@
     "href": "index.html#proyectos",
     "title": "Portafolio_test",
     "section": "Proyectos",
-    "text": "Proyectos\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI\n\n\n\nejemplo\n\npower bi\n\nvisualización\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\nSep 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes\n\n\n\nejemplo\n\nmachine learning\n\npython\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas\n\n\n\nejemplo\n\npython\n\neda\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\nMar 1, 2026\n\n\n\n\n\n\nNo matching items\n\n\nVer todos los proyectos"
+    "text": "Proyectos\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI\n\n\n\nejemplo\n\npower bi\n\nvisualización\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n1 sept 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes\n\n\n\nejemplo\n\nmachine learning\n\npython\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n1 jun 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas\n\n\n\nejemplo\n\npython\n\neda\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n1 mar 2026\n\n\n\n\n\n\nNo hay resultados\n\n\nVer todos los proyectos"
+  },
+  {
+    "objectID": "events/index.html",
+    "href": "events/index.html",
+    "title": "Eventos",
+    "section": "",
+    "text": "Summit pais digital 2026\n\n\n\nconferencia\n\n\n\nEncuentro de economía y cultura digital más importante en Latinoamérica.\n\n\n\n\n\n7 oct 2026\n\n\n\n\n\nNo hay resultados"
   },
   {
     "objectID": "about.html",
@@ -61,6 +68,13 @@
     "title": "Magadiel Quilacan",
     "section": "",
     "text": "About this blog"
+  },
+  {
+    "objectID": "events/Summit-pais-dig-2026/index.html",
+    "href": "events/Summit-pais-dig-2026/index.html",
+    "title": "Summit pais digital 2026",
+    "section": "",
+    "text": "Evento de ejemplo. Reemplaza este archivo con un evento real o borra la carpeta events/evento-ejemplo/.\n\nEscribe aquí tu experiencia en el evento. Si agregas una imagen (por ejemplo ![](foto.jpg)), la primera imagen se usará como miniatura en la página de eventos, igual que en el blog."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -74,7 +88,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI\n\n\n\nejemplo\n\npower bi\n\nvisualización\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\nSep 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes\n\n\n\nejemplo\n\nmachine learning\n\npython\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas\n\n\n\nejemplo\n\npython\n\neda\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\nMar 1, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI\n\n\n\nejemplo\n\npower bi\n\nvisualización\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\n1 sept 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes\n\n\n\nejemplo\n\nmachine learning\n\npython\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\n1 jun 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas\n\n\n\nejemplo\n\npython\n\neda\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\n1 mar 2026\n\n\n\n\n\n\nNo hay resultados"
   },
   {
     "objectID": "projects/proyecto-2/index.html",
