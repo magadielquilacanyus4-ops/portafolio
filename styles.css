@@ -6,6 +6,15 @@
   --hero-overlay: rgba(10, 25, 40, 0.65);
 }
 
+/* ---------- Navbar logo ---------- */
+
+/* the PNG has wide transparent margins: enlarge it and use negative
+   margins so the navbar keeps its original height */
+.navbar-brand .navbar-logo {
+  max-height: 90px;
+  margin: -25px 0;
+}
+
 /* ---------- Hero ---------- */
 
 .hero {
@@ -30,6 +39,7 @@
 }
 
 .hero .hero-title {
+  display: block;
   margin: 0 0 1rem;
   color: #fff;
   font-family: var(--bs-headings-font-family, inherit);
@@ -112,10 +122,32 @@
   color: var(--brand-light);
 }
 
-.contact-links .bi-linkedin,
-.contact-links .bi-github {
+/* icons are drawn with CSS (Bootstrap Icons font) because RStudio's visual
+   editor strips empty icon spans from the markdown */
+.contact-email::before,
+.social-icon::before {
+  font-family: "bootstrap-icons";
+  font-weight: normal;
+  line-height: 1;
+  vertical-align: -0.125em;
+}
+
+.contact-email::before {
+  content: "\f32f";
+  margin-right: 0.35rem;
+}
+
+.social-icon {
   margin: 0 0.4rem;
   font-size: 1.6rem;
+}
+
+.social-linkedin::before {
+  content: "\f472";
+}
+
+.social-github::before {
+  content: "\f3ed";
 }
 
 .presentacion-text ul {
