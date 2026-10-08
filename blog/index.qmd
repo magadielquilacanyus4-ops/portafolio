@@ -2,7 +2,10 @@
 title: "Blog"
 subtitle: "Artículos, reseñas de libros y crónicas de eventos"
 listing:
-  contents: "*/index.qmd"
+  # posts only: the category pages live in categoria/
+  contents:
+    - "*/index.qmd"
+    - "!categoria/**"
   sort: "date desc"
   type: default
   categories: true
