@@ -1,10 +1,14 @@
 /* css styles */
 
 :root {
-  --brand-dark: #193B59;
-  --brand-light: #2c5f8a;
-  --hero-bg: #0a1f3d;
-  --accent: #38bdf8;
+  --brand-dark: #0b3f8a;   /* headings, buttons, chips (10:1 on white) */
+  --brand-light: #1f6fd0;  /* hover (5:1 on white, AA) */
+  --hero-bg: #031a3d;      /* deep navy */
+  --hero-mid: #0a3d82;
+  --hero-glow: #2f7fe0;    /* side glow, as in hero-image.jpg */
+  --accent: #7fe3d9;       /* aquamarine nodes */
+  --line: #7fb2f5;         /* network links */
+  --cream: #efe9c6;        /* a few warm nodes */
   --header-height: 100px;
 }
 
@@ -27,7 +31,7 @@ body:has(.hero) {
 }
 
 body:has(.hero) #quarto-header .navbar {
-  background-color: rgba(8, 24, 48, 0.55);
+  background-color: rgba(3, 20, 48, 0.55);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -36,7 +40,7 @@ body:has(.hero) #quarto-header .navbar {
 
 /* once scrolled past the top, more opacity keeps white text readable over light content */
 body:has(.hero) #quarto-header.headroom--not-top .navbar {
-  background-color: rgba(8, 24, 48, 0.85);
+  background-color: rgba(3, 20, 48, 0.88);
 }
 
 /* ---------- Hero ---------- */
@@ -53,7 +57,10 @@ body:has(.hero) #quarto-header.headroom--not-top .navbar {
   color: #fff;
   text-align: center;
   /* base for the particle network (js/hero-particles.js); also the no-JS fallback */
-  background: linear-gradient(135deg, var(--hero-bg), var(--brand-dark));
+  background:
+    radial-gradient(ellipse at 92% 55%, color-mix(in srgb, var(--hero-glow) 55%, transparent), transparent 55%),
+    radial-gradient(ellipse at 15% 105%, color-mix(in srgb, var(--brand-light) 45%, transparent), transparent 50%),
+    linear-gradient(160deg, var(--hero-bg) 0%, var(--hero-mid) 55%, #0b57b8 100%);
   position: relative;
   overflow: hidden;
 }
@@ -135,7 +142,7 @@ body:has(.hero) #quarto-header.headroom--not-top .navbar {
   object-fit: cover;
   object-position: 51% 75%;
   border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(25, 59, 89, 0.25);
+  box-shadow: 0 8px 24px rgba(11, 63, 138, 0.25);
 }
 
 .contact-links {
@@ -361,7 +368,7 @@ body:has(.hero) #quarto-header.headroom--not-top .navbar {
   padding: 1.25rem 1.5rem;
   border-left: 4px solid var(--brand-dark);
   border-radius: 8px;
-  background-color: rgba(25, 59, 89, 0.06);
+  background-color: rgba(11, 63, 138, 0.06);
 }
 
 .ficha-libro {
@@ -378,7 +385,7 @@ body:has(.hero) #quarto-header.headroom--not-top .navbar {
   width: 140px;
   max-width: 35%;
   border-radius: 4px;
-  box-shadow: 0 4px 12px rgba(25, 59, 89, 0.25);
+  box-shadow: 0 4px 12px rgba(11, 63, 138, 0.25);
 }
 
 .ficha-libro-datos {
