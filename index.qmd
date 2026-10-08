@@ -4,6 +4,8 @@ page-layout: article
 toc: false
 resources:
   - images/
+  - js/
+include-after-body: _includes/hero-particles.html
 listing:
   id: home-projects
   contents: "projects/*/index.qmd"

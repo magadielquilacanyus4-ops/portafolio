@@ -3,7 +3,8 @@
 :root {
   --brand-dark: #193B59;
   --brand-light: #2c5f8a;
-  --hero-overlay: rgba(10, 25, 40, 0.65);
+  --hero-bg: #0a1f3d;
+  --accent: #38bdf8;
   --header-height: 100px;
 }
 
@@ -51,14 +52,22 @@ body:has(.hero) #quarto-header.headroom--not-top .navbar {
   padding: calc(var(--header-height) + 2rem) 1.5rem 3rem;
   color: #fff;
   text-align: center;
-  /* overlay + optional photo + fallback gradient (visible when hero-image.jpg is missing) */
-  background:
-    linear-gradient(var(--hero-overlay), var(--hero-overlay)),
-    url("images/hero-image.jpg") center / cover no-repeat,
-    linear-gradient(135deg, var(--brand-dark), var(--brand-light));
+  /* base for the particle network (js/hero-particles.js); also the no-JS fallback */
+  background: linear-gradient(135deg, var(--hero-bg), var(--brand-dark));
+  position: relative;
+  overflow: hidden;
+}
+
+#hero-particles {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
 }
 
 .hero-content {
+  position: relative;
+  z-index: 1;
   max-width: 800px;
 }
 
