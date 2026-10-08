@@ -30,7 +30,7 @@
         fpsLimit: 60,
         particles: {
           // base count; density scales it down to the hero size (fewer nodes on mobile)
-          number: { value: 230, density: { enable: true } },
+          number: { value: 200, density: { enable: true } },
           // mostly aquamarine and bluish white, with a few cream nodes
           color: { value: [accent, accent, "#cfe6ff", cream] },
           links: { enable: true, color: line, opacity: 0.3, distance: 140 },
