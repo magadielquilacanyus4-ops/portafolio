@@ -17,13 +17,9 @@ website:
       - text: Proyectos
         href: projects/
       - text: Blog
-        href: posts/
-      - text: Libros
-        href: books.qmd
-      - text: Fotografias
+        href: blog/
+      - text: Fotografías
         href: photography.qmd
-      - text: Eventos
-        href: events/
 
     right:
       - about.qmd

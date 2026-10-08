@@ -1,0 +1,24 @@
+---
+title: "Blog"
+subtitle: "Artículos, reseñas de libros y crónicas de eventos"
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+aliases:
+  - /posts/index.html
+  - /posts/welcome/index.html
+  - /posts/post-with-code/index.html
+---
+
+::: blog-chips
+[Todos](index.qmd){.blog-chip .active aria-current="page"}
+[Artículos](categoria/articulos/index.qmd){.blog-chip}
+[Libros](categoria/libros/index.qmd){.blog-chip}
+[Eventos](categoria/eventos/index.qmd){.blog-chip}
+:::

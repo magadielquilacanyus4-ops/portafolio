@@ -1,0 +1,22 @@
+---
+title: "Artículos"
+subtitle: "Contenido técnico propio"
+listing:
+  contents: "../../*/index.qmd"
+  include:
+    tipo: "Artículos"
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+::: blog-chips
+[Todos](../../index.qmd){.blog-chip}
+[Artículos](../../categoria/articulos/index.qmd){.blog-chip .active aria-current="page"}
+[Libros](../../categoria/libros/index.qmd){.blog-chip}
+[Eventos](../../categoria/eventos/index.qmd){.blog-chip}
+:::

@@ -1,0 +1,29 @@
+---
+title: "Summit pais digital 2026"
+description: "Encuentro de economía y cultura digital más importante
+en Latinoamérica."
+date: "2026-10-07"
+tipo: "Eventos"
+categories: [Economía digital, Transformación digital]
+image: Summit-2025--6.jpg
+evento:
+  nombre: "Summit País Digital 2026"
+  fecha: "7 de octubre de 2026"
+  lugar: "Santiago, Chile"
+aliases:
+  - /events/Summit-pais-dig-2026/index.html
+---
+
+::: ficha-evento
+**Evento:** {{< meta evento.nombre >}}  
+**Fecha:** {{< meta evento.fecha >}}  
+**Lugar:** {{< meta evento.lugar >}}
+:::
+
+::: {.callout-tip title="3 aprendizajes clave"}
+1. Primer aprendizaje.
+2. Segundo aprendizaje.
+3. Tercer aprendizaje.
+:::
+
+Escribe aquí tu experiencia en el evento. Si agregas una imagen (por ejemplo `![](foto.jpg)`), la primera imagen se usará como miniatura en el blog.

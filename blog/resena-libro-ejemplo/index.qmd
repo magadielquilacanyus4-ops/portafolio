@@ -1,0 +1,28 @@
+---
+title: "Reseña de ejemplo: Título del libro"
+description: "Plantilla para reseñas de libros. Copia esta carpeta y reemplaza los datos."
+date: "2026-10-08"
+tipo: "Libros"
+categories: [Machine Learning, Python]
+image: portada.svg
+libro:
+  autor: "Nombre del autor"
+  calificacion: "★★★★☆"
+  veredicto: "Una línea con tu opinión general del libro."
+  para-quien: "Personas que quieren iniciarse en el tema."
+---
+
+::: ficha-libro
+![](portada.svg){.ficha-libro-portada fig-alt="Portada del libro"}
+
+::: ficha-libro-datos
+**Autor:** {{< meta libro.autor >}}  
+**Calificación:** {{< meta libro.calificacion >}}  
+**Veredicto:** {{< meta libro.veredicto >}}  
+**Para quién es:** {{< meta libro.para-quien >}}
+:::
+:::
+
+> **Plantilla.** Copia la carpeta `blog/resena-libro-ejemplo/` con un nombre nuevo, cambia los datos del encabezado (`libro:`) y reemplaza `portada.svg` por la portada real. Borra esta carpeta cuando ya no la necesites.
+
+Escribe aquí tu reseña.
