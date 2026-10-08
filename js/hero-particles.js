@@ -25,8 +25,8 @@
         fullScreen: { enable: false },
         fpsLimit: 60,
         particles: {
-          // density scales the count to the hero size (~65 nodes at 1400px wide)
-          number: { value: 180, density: { enable: true } },
+          // base count; density scales it down to the hero size (fewer nodes on mobile)
+          number: { value: 230, density: { enable: true } },
           color: { value: accent },
           links: { enable: true, color: accent, opacity: 0.25, distance: 140 },
           move: { enable: !reduceMotion, speed: 0.6 },
