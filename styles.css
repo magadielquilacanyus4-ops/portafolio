@@ -4,7 +4,9 @@
   --brand-dark: #193B59;
   --brand-light: #2c5f8a;
   --hero-bg: #0a1f3d;
-  --accent: #38bdf8;
+  --accent: #7fe3d9;       /* aquamarine nodes */
+  --line: #7fb2f5;         /* network links */
+  --cream: #efe9c6;        /* a few warm nodes */
   --header-height: 100px;
 }
 

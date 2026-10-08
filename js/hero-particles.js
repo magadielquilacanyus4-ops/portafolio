@@ -10,9 +10,13 @@
   container.setAttribute("aria-hidden", "true");
   hero.prepend(container);
 
-  var accent = getComputedStyle(document.documentElement)
-    .getPropertyValue("--accent").trim() || "#38bdf8";
+  var css = getComputedStyle(document.documentElement);
+  var accent = css.getPropertyValue("--accent").trim() || "#7fe3d9";
+  var line = css.getPropertyValue("--line").trim() || "#7fb2f5";
+  var cream = css.getPropertyValue("--cream").trim() || "#efe9c6";
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  // the glow is the most expensive part of each frame: skip it on phones
+  var isSmallScreen = window.matchMedia("(max-width: 767.98px)").matches;
 
   // v3 bundles only ship the engine: loadFull registers the shapes,
   // updaters (opacity, size...) and interactions; without it nothing is drawn
@@ -25,13 +29,16 @@
         fullScreen: { enable: false },
         fpsLimit: 60,
         particles: {
-          // density scales the count to the hero size (~65 nodes at 1400px wide)
-          number: { value: 180, density: { enable: true } },
-          color: { value: accent },
-          links: { enable: true, color: accent, opacity: 0.25, distance: 140 },
+          // base count; density scales it down to the hero size (fewer nodes on mobile)
+          number: { value: 200, density: { enable: true } },
+          // mostly aquamarine and bluish white, with a few cream nodes
+          color: { value: [accent, accent, "#cfe6ff", cream] },
+          links: { enable: true, color: line, opacity: 0.3, distance: 140 },
           move: { enable: !reduceMotion, speed: 0.6 },
-          opacity: { value: 0.6 },
-          size: { value: { min: 1, max: 3 } }
+          opacity: { value: { min: 0.35, max: 0.8 } },
+          size: { value: { min: 1, max: 3.5 } },
+          // soft glow, like the bokeh in hero-image.jpg
+          shadow: { enable: !isSmallScreen, color: accent, blur: 8 }
         },
         interactivity: {
           // listen on the window so hovering the hero text still "grabs" nodes

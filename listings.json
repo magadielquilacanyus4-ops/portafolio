@@ -32,10 +32,6 @@
   {
     "listing": "/blog/index.html",
     "items": [
-      "/blog/categoria/articulos/index.html",
-      "/blog/categoria/eventos/index.html",
-      "/blog/categoria/fotografia/index.html",
-      "/blog/categoria/libros/index.html",
       "/blog/galeria-ejemplo/index.html",
       "/blog/resena-libro-ejemplo/index.html",
       "/blog/Summit-pais-dig-2026/index.html"
