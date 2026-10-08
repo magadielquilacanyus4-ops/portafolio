@@ -55,33 +55,36 @@ listing:
 ::::::
 
 ::: tools-section
-## Herramientas
+## Stack Tecnológico
 
 ```{=html}
 <!--
-  Logos: agrega un archivo por herramienta en images/tools/ (SVG o PNG transparente).
-  Para activar cada logo, reemplaza el <span class="tool-placeholder"> por la línea <img> comentada,
+  Logos: agrega un archivo por herramienta en images/carrusel_stack_tecnologico/ (SVG o PNG transparente).
+  Para activar cada logo, añade un <img ... alt=""> antes del <span class="tool-name">,
   en ambos grupos (el segundo grupo es un duplicado necesario para el bucle infinito).
+  El alt va vacío porque el nombre ya aparece como texto en la tarjeta.
 -->
 <div class="tools-carousel" aria-label="Herramientas de trabajo">
   <div class="tools-track">
     <ul class="tools-group">
-      <li><span class="tool-placeholder">Excel</span><!-- <img src="images/tools/excel.svg" alt="Logo de Microsoft Excel"> --></li>
-      <li><span class="tool-placeholder">Python</span><!-- <img src="images/tools/python.svg" alt="Logo de Python"> --></li>
-      <li><span class="tool-placeholder">SQL</span><!-- <img src="images/tools/sql.svg" alt="Logo de SQL"> --></li>
-      <li><span class="tool-placeholder">Power BI</span><!-- <img src="images/tools/powerbi.svg" alt="Logo de Power BI"> --></li>
-      <li><span class="tool-placeholder">Tableau</span><!-- <img src="images/tools/tableau.svg" alt="Logo de Tableau"> --></li>
-      <li><span class="tool-placeholder">R</span><!-- <img src="images/tools/r.svg" alt="Logo del lenguaje R"> --></li>
-      <li><span class="tool-placeholder">Git</span><!-- <img src="images/tools/git.svg" alt="Logo de Git"> --></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/excel-icon.png" alt=""><span class="tool-name">Excel</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/google_sheet-icon.png" alt=""><span class="tool-name">Sheets</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/python-icon.png" alt=""><span class="tool-name">Python</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/sql-icon.png" alt=""><span class="tool-name">SQL</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/power_bi-icon.png" alt=""><span class="tool-name">Power BI</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/tablaou-icon.png" alt=""><span class="tool-name">Tableau</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/r-icon.png" alt=""><span class="tool-name">R</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/git-icon.png" alt=""><span class="tool-name">GitHub</span></li>
     </ul>
     <ul class="tools-group" aria-hidden="true">
-      <li><span class="tool-placeholder">Excel</span><!-- <img src="images/tools/excel.svg" alt=""> --></li>
-      <li><span class="tool-placeholder">Python</span><!-- <img src="images/tools/python.svg" alt=""> --></li>
-      <li><span class="tool-placeholder">SQL</span><!-- <img src="images/tools/sql.svg" alt=""> --></li>
-      <li><span class="tool-placeholder">Power BI</span><!-- <img src="images/tools/powerbi.svg" alt=""> --></li>
-      <li><span class="tool-placeholder">Tableau</span><!-- <img src="images/tools/tableau.svg" alt=""> --></li>
-      <li><span class="tool-placeholder">R</span><!-- <img src="images/tools/r.svg" alt=""> --></li>
-      <li><span class="tool-placeholder">Git</span><!-- <img src="images/tools/git.svg" alt=""> --></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/excel-icon.png" alt=""><span class="tool-name">Excel</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/google_sheet-icon.png" alt=""><span class="tool-name">Sheets</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/python-icon.png" alt=""><span class="tool-name">Python</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/sql-icon.png" alt=""><span class="tool-name">SQL</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/power_bi-icon.png" alt=""><span class="tool-name">Power BI</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/tablaou-icon.png" alt=""><span class="tool-name">Tableau</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/r-icon.png" alt=""><span class="tool-name">R</span></li>
+      <li class="tool-card"><img src="images/carrusel_stack_tecnologico/git-icon.png" alt=""><span class="tool-name">GitHub</span></li>
     </ul>
   </div>
 </div>
