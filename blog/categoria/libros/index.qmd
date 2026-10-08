@@ -21,4 +21,5 @@ aliases:
 [Artículos](../../categoria/articulos/index.qmd){.blog-chip}
 [Libros](../../categoria/libros/index.qmd){.blog-chip .active aria-current="page"}
 [Eventos](../../categoria/eventos/index.qmd){.blog-chip}
+[Fotografía](../../categoria/fotografia/index.qmd){.blog-chip}
 :::

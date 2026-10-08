@@ -19,4 +19,5 @@ title-block-banner: true
 [Artículos](../../categoria/articulos/index.qmd){.blog-chip .active aria-current="page"}
 [Libros](../../categoria/libros/index.qmd){.blog-chip}
 [Eventos](../../categoria/eventos/index.qmd){.blog-chip}
+[Fotografía](../../categoria/fotografia/index.qmd){.blog-chip}
 :::

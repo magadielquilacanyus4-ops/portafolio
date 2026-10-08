@@ -1,0 +1,29 @@
+---
+title: "Galería de ejemplo"
+description: "Plantilla para publicaciones de fotografía. Copia esta carpeta y reemplaza las imágenes."
+date: "2026-10-08"
+tipo: "Fotografía"
+categories: [Fotografía urbana]
+image: foto-1.svg
+lightbox: true
+foto:
+  lugar: "Lugar de la sesión"
+  fecha: "Fecha de la sesión"
+  equipo: "Cámara y lente"
+---
+
+::: ficha-foto
+**Lugar:** {{< meta foto.lugar >}}  
+**Fecha:** {{< meta foto.fecha >}}  
+**Equipo:** {{< meta foto.equipo >}}
+:::
+
+> **Plantilla.** Copia la carpeta `blog/galeria-ejemplo/` con un nombre nuevo, cambia los datos del encabezado (`foto:`) y reemplaza las imágenes por tus fotos. Borra esta carpeta cuando ya no la necesites.
+
+Escribe aquí la historia detrás de la serie.
+
+::: {layout-ncol=2}
+![Descripción de la foto 1](foto-1.svg){group="galeria"}
+
+![Descripción de la foto 2](foto-2.svg){group="galeria"}
+:::
