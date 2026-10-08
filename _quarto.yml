@@ -9,7 +9,7 @@ website:
     logo: logo_maga.png
     logo-alt: "Magadiel - Inicio"
     title: false
-    background: "#0b3f8a"
+    background: "#193B59"
     foreground: "#ffffff"
     left:
       - text: Home
