@@ -1,6 +1,6 @@
 ---
 title: "Magadiel Quilacan"
-image: maga.webp
+image: maga-about.png
 about:
   template: jolla
   links:
