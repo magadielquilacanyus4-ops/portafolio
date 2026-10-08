@@ -1,9 +1,28 @@
 [
   {
-    "listing": "/posts/index.html",
+    "listing": "/blog/index.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/blog/categoria/articulos/index.html",
+      "/blog/categoria/eventos/index.html",
+      "/blog/categoria/libros/index.html",
+      "/blog/resena-libro-ejemplo/index.html",
+      "/blog/Summit-pais-dig-2026/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/categoria/eventos/index.html",
+    "items": [
+      "/blog/Summit-pais-dig-2026/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/categoria/articulos/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/categoria/libros/index.html",
+    "items": [
+      "/blog/resena-libro-ejemplo/index.html"
     ]
   },
   {
@@ -12,12 +31,6 @@
       "/projects/proyecto-3/index.html",
       "/projects/proyecto-2/index.html",
       "/projects/proyecto-1/index.html"
-    ]
-  },
-  {
-    "listing": "/events/index.html",
-    "items": [
-      "/events/Summit-pais-dig-2026/index.html"
     ]
   },
   {

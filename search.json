@@ -14,18 +14,53 @@
     "text": "Proyecto de ejemplo. Este archivo es un marcador de posición: reemplázalo con tu proyecto real (o borra la carpeta projects/proyecto-1/)."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "blog/Summit-pais-dig-2026/index.html",
+    "href": "blog/Summit-pais-dig-2026/index.html",
+    "title": "Summit pais digital 2026",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Evento: Summit País Digital 2026\nFecha: 7 de octubre de 2026\nLugar: Santiago, Chile\n\n\n\n\n\n\n\nTip3 aprendizajes clave\n\n\n\n\nPrimer aprendizaje.\nSegundo aprendizaje.\nTercer aprendizaje.\n\n\n\nEscribe aquí tu experiencia en el evento. Si agregas una imagen (por ejemplo ![](foto.jpg)), la primera imagen se usará como miniatura en el blog."
   },
   {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\n4 oct 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n1 oct 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo hay resultados"
+    "text": "Todos Artículos Libros Eventos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nArtículos\n\n\nContenido técnico propio\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEventos\n\n\nCrónicas de conferencias, meetups y charlas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLibros\n\n\nReseñas de lecturas\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReseña de ejemplo: Título del libro\n\n\n\n\n\n\nMachine Learning\n\nPython\n\n\n\nPlantilla para reseñas de libros. Copia esta carpeta y reemplaza los datos.\n\n\n\n\n\n8 oct 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSummit pais digital 2026\n\n\n\n\n\n\nEconomía digital\n\nTransformación digital\n\n\n\nEncuentro de economía y cultura digital más importante en Latinoamérica.\n\n\n\n\n\n7 oct 2026\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "blog/categoria/eventos/index.html",
+    "href": "blog/categoria/eventos/index.html",
+    "title": "Eventos",
+    "section": "",
+    "text": "Todos Artículos Libros Eventos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSummit pais digital 2026\n\n\n\nEconomía digital\n\nTransformación digital\n\n\n\nEncuentro de economía y cultura digital más importante en Latinoamérica.\n\n\n\n\n\n7 oct 2026\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Magadiel Quilacan",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "blog/categoria/articulos/index.html",
+    "href": "blog/categoria/articulos/index.html",
+    "title": "Artículos",
+    "section": "",
+    "text": "Todos Artículos Libros Eventos\n\n\n\n\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "blog/categoria/libros/index.html",
+    "href": "blog/categoria/libros/index.html",
+    "title": "Libros",
+    "section": "",
+    "text": "Todos Artículos Libros Eventos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReseña de ejemplo: Título del libro\n\n\n\nMachine Learning\n\nPython\n\n\n\nPlantilla para reseñas de libros. Copia esta carpeta y reemplaza los datos.\n\n\n\n\n\n8 oct 2026\n\n\n\n\n\nNo hay resultados"
+  },
+  {
+    "objectID": "blog/resena-libro-ejemplo/index.html",
+    "href": "blog/resena-libro-ejemplo/index.html",
+    "title": "Reseña de ejemplo: Título del libro",
+    "section": "",
+    "text": "Autor: Nombre del autor\nCalificación: ★★★★☆\nVeredicto: Una línea con tu opinión general del libro.\nPara quién es: Personas que quieren iniciarse en el tema.\n\n\n\nPlantilla. Copia la carpeta blog/resena-libro-ejemplo/ con un nombre nuevo, cambia los datos del encabezado (libro:) y reemplaza portada.svg por la portada real. Borra esta carpeta cuando ya no la necesites.\n\nEscribe aquí tu reseña."
   },
   {
     "objectID": "index.html",
@@ -54,34 +89,6 @@
     "title": "Portafolio_test",
     "section": "Proyectos",
     "text": "Proyectos\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI\n\n\n\nejemplo\n\npower bi\n\nvisualización\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n1 sept 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes\n\n\n\nejemplo\n\nmachine learning\n\npython\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n1 jun 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas\n\n\n\nejemplo\n\npython\n\neda\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n1 mar 2026\n\n\n\n\n\n\nNo hay resultados\n\n\nVer todos los proyectos"
-  },
-  {
-    "objectID": "events/index.html",
-    "href": "events/index.html",
-    "title": "Eventos",
-    "section": "",
-    "text": "Summit pais digital 2026\n\n\n\nconferencia\n\n\n\nEncuentro de economía y cultura digital más importante en Latinoamérica.\n\n\n\n\n\n7 oct 2026\n\n\n\n\n\nNo hay resultados"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Magadiel Quilacan",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "events/Summit-pais-dig-2026/index.html",
-    "href": "events/Summit-pais-dig-2026/index.html",
-    "title": "Summit pais digital 2026",
-    "section": "",
-    "text": "Evento de ejemplo. Reemplaza este archivo con un evento real o borra la carpeta events/evento-ejemplo/.\n\nEscribe aquí tu experiencia en el evento. Si agregas una imagen (por ejemplo ![](foto.jpg)), la primera imagen se usará como miniatura en la página de eventos, igual que en el blog."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "projects/index.html",
