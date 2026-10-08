@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Plantilla para publicaciones de fotografía. Copia esta carpeta y reemplaza las imágenes.">
 
-<title>Magadiel Quilacan | Ciencia de datos – Portafolio_test</title>
+<title>Galería de ejemplo – Portafolio_test</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,25 +30,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6715153c10525c189f9fdbafa9864dc3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-6715153c10525c189f9fdbafa9864dc3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,79 +77,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-home-projects .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-description','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-home-projects'] = new List('listing-home-projects', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./logo_maga.png" alt="Magadiel - Inicio" class="navbar-logo light-content">
-    <img src="./logo_maga.png" alt="Magadiel - Inicio" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../logo_maga.png" alt="Magadiel - Inicio" class="navbar-logo light-content">
+    <img src="../../logo_maga.png" alt="Magadiel - Inicio" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Buscar"></div>
@@ -157,21 +101,21 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/"> 
+    <a class="nav-link" href="../../projects/"> 
 <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/"> 
+    <a class="nav-link" href="../../blog/"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">Magadiel Quilacan</span></a>
   </li>  
   <li class="nav-item compact">
@@ -192,176 +136,76 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Galería de ejemplo</h1>
+                  <div>
+        <div class="description">
+          Plantilla para publicaciones de fotografía. Copia esta carpeta y reemplaza las imágenes.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Fotografía urbana</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Fecha de publicación</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">8 de octubre de 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<div class="hero column-screen">
-<div class="hero-content">
-<p><span class="hero-title" role="heading" aria-level="1">Magadiel Quilacan</span></p>
-<p><span class="hero-usp">Científico de datos especializado en análisis de industrias</span></p>
-<p><span class="hero-subtitle">[SUBTÍTULO: frase breve de 1 o 2 líneas con tu experiencia y resultados]</span></p>
-</div>
-</div>
-<div class="presentacion grid">
-<div class="g-col-12 g-col-md-4 presentacion-photo">
-<p><img src="images/profile.webp" class="profile-img img-fluid" alt="Foto de Magadiel Quilacan"></p>
-<div class="contact-links">
-<p><a href="mailto:magadiel.1999@gmail.com" class="contact-email">Magadiel.1999@gmail.com</a></p>
-<p><a href="https://www.linkedin.com/in/magadiel-quilacan" class="social-icon social-linkedin" target="_blank">LinkedIn</a> <a href="https://github.com/magadielquilacanyus4-ops" class="social-icon social-github" target="_blank">GitHub</a></p>
-</div>
-</div>
-<section id="presentación" class="level2 g-col-12 g-col-md-8 presentacion-text">
-<h2 class="anchored" data-anchor-id="presentación">Presentación</h2>
-<p>[SALUDO: un párrafo corto presentándote, ej. “¡Hola! Soy Magadiel, …”]</p>
-<ul>
-<li><strong>[Perfil o especialidad]</strong>: [detalle]</li>
-<li><strong>[Años de experiencia]</strong> como <strong>[rol]</strong></li>
-<li>Formación en <strong>[carrera / institución]</strong></li>
-<li>Certificaciones: <strong>[certificación 1]</strong>, <strong>[certificación 2]</strong></li>
-<li>Resuelvo problemas de <strong>[tipo de problemas]</strong></li>
-<li>Domino <strong>[herramienta 1]</strong>, <strong>[herramienta 2]</strong> y <strong>[herramienta 3]</strong></li>
-</ul>
-</section>
-</div>
-<section id="herramientas" class="level2 tools-section">
-<h2 class="anchored" data-anchor-id="herramientas">Herramientas</h2>
-<!--
-  Logos: agrega un archivo por herramienta en images/tools/ (SVG o PNG transparente).
-  Para activar cada logo, reemplaza el <span class="tool-placeholder"> por la línea <img> comentada,
-  en ambos grupos (el segundo grupo es un duplicado necesario para el bucle infinito).
--->
-<div class="tools-carousel" aria-label="Herramientas de trabajo">
-  <div class="tools-track">
-    <ul class="tools-group">
-      <li><span class="tool-placeholder">Excel</span><!-- <img src="images/tools/excel.svg" alt="Logo de Microsoft Excel"> --></li>
-      <li><span class="tool-placeholder">Python</span><!-- <img src="images/tools/python.svg" alt="Logo de Python"> --></li>
-      <li><span class="tool-placeholder">SQL</span><!-- <img src="images/tools/sql.svg" alt="Logo de SQL"> --></li>
-      <li><span class="tool-placeholder">Power BI</span><!-- <img src="images/tools/powerbi.svg" alt="Logo de Power BI"> --></li>
-      <li><span class="tool-placeholder">Tableau</span><!-- <img src="images/tools/tableau.svg" alt="Logo de Tableau"> --></li>
-      <li><span class="tool-placeholder">R</span><!-- <img src="images/tools/r.svg" alt="Logo del lenguaje R"> --></li>
-      <li><span class="tool-placeholder">Git</span><!-- <img src="images/tools/git.svg" alt="Logo de Git"> --></li>
-    </ul>
-    <ul class="tools-group" aria-hidden="true">
-      <li><span class="tool-placeholder">Excel</span><!-- <img src="images/tools/excel.svg" alt=""> --></li>
-      <li><span class="tool-placeholder">Python</span><!-- <img src="images/tools/python.svg" alt=""> --></li>
-      <li><span class="tool-placeholder">SQL</span><!-- <img src="images/tools/sql.svg" alt=""> --></li>
-      <li><span class="tool-placeholder">Power BI</span><!-- <img src="images/tools/powerbi.svg" alt=""> --></li>
-      <li><span class="tool-placeholder">Tableau</span><!-- <img src="images/tools/tableau.svg" alt=""> --></li>
-      <li><span class="tool-placeholder">R</span><!-- <img src="images/tools/r.svg" alt=""> --></li>
-      <li><span class="tool-placeholder">Git</span><!-- <img src="images/tools/git.svg" alt=""> --></li>
-    </ul>
-  </div>
-</div>
-</section>
-<section id="proyectos" class="level2 projects-section">
-<h2 class="anchored" data-anchor-id="proyectos">Proyectos</h2>
-<div id="listing-home-projects" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="ZWplbXBsbyUyQ3Bvd2VyJTIwYmklMkN2aXN1YWxpemFjaSVDMyVCM24=" data-listing-date-sort="1788235200000" data-listing-file-modified-sort="1791316867318" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
-<a href="./projects/proyecto-3/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/proyecto-3/thumbnail.svg" class="thumbnail-image card-img" style="height: 180px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI
-</h5>
-<div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('ZWplbXBsbw=='); return false;">ejemplo</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cG93ZXIlMjBiaQ=='); return false;">power bi</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dmlzdWFsaXphY2klQzMlQjNu'); return false;">visualización</div>
-
+<div class="ficha-foto">
+<p><strong>Lugar:</strong> Lugar de la sesión<br>
+<strong>Fecha:</strong> Fecha de la sesión<br>
+<strong>Equipo:</strong> Cámara y lente</p>
 </div>
-<div class="card-text listing-description delink">
-<p>Proyecto de ejemplo — reemplázame con la descripción real de tu proyecto.</p>
+<blockquote class="blockquote">
+<p><strong>Plantilla.</strong> Copia la carpeta <code>blog/galeria-ejemplo/</code> con un nombre nuevo, cambia los datos del encabezado (<code>foto:</code>) y reemplaza las imágenes por tus fotos. Borra esta carpeta cuando ya no la necesites.</p>
+</blockquote>
+<p>Escribe aquí la historia detrás de la serie.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="foto-1.svg" class="lightbox" data-gallery="galeria" title="Descripción de la foto 1"><img src="foto-1.svg" class="img-fluid figure-img" alt="Descripción de la foto 1"></a></p>
+<figcaption>Descripción de la foto 1</figcaption>
+</figure>
 </div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-1 sept 2026
 </div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="ZWplbXBsbyUyQ21hY2hpbmUlMjBsZWFybmluZyUyQ3B5dGhvbg==" data-listing-date-sort="1780286400000" data-listing-file-modified-sort="1791316867316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
-<a href="./projects/proyecto-2/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/proyecto-2/thumbnail.svg" class="thumbnail-image card-img" style="height: 180px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZWplbXBsbw=='); return false;">ejemplo</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWFjaGluZSUyMGxlYXJuaW5n'); return false;">machine learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">python</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Proyecto de ejemplo — reemplázame con la descripción real de tu proyecto.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-1 jun 2026
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="foto-2.svg" class="lightbox" data-gallery="galeria" title="Descripción de la foto 2"><img src="foto-2.svg" class="img-fluid figure-img" alt="Descripción de la foto 2"></a></p>
+<figcaption>Descripción de la foto 2</figcaption>
+</figure>
 </div>
 </div>
 </div>
-</div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="ZWplbXBsbyUyQ3B5dGhvbiUyQ2VkYQ==" data-listing-date-sort="1772334000000" data-listing-file-modified-sort="1791316867315" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
-<a href="./projects/proyecto-1/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./projects/proyecto-1/thumbnail.svg" class="thumbnail-image card-img" style="height: 180px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZWplbXBsbw=='); return false;">ejemplo</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">python</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZWRh'); return false;">eda</div>
-
-</div>
-<div class="card-text listing-description delink">
-<p>Proyecto de ejemplo — reemplázame con la descripción real de tu proyecto.</p>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-1 mar 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No hay resultados</div>
-</div>
-<div class="projects-more">
-<p><a href="./projects/index.html" class="btn btn-primary projects-btn">Ver todos los proyectos</a></p>
-</div>
-</section>
-
 
 
 
@@ -767,6 +611,38 @@ window.Quarto = {
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

@@ -346,7 +346,8 @@ body:has(.hero) #quarto-header.headroom--not-top .navbar {
 }
 
 .ficha-libro,
-.ficha-evento {
+.ficha-evento,
+.ficha-foto {
   margin-bottom: 2rem;
   padding: 1.25rem 1.5rem;
   border-left: 4px solid var(--brand-dark);

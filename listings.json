@@ -1,13 +1,21 @@
 [
   {
-    "listing": "/blog/index.html",
+    "listing": "/index.html",
     "items": [
-      "/blog/categoria/articulos/index.html",
-      "/blog/categoria/eventos/index.html",
-      "/blog/categoria/libros/index.html",
-      "/blog/resena-libro-ejemplo/index.html",
-      "/blog/Summit-pais-dig-2026/index.html"
+      "/projects/proyecto-3/index.html",
+      "/projects/proyecto-2/index.html",
+      "/projects/proyecto-1/index.html"
     ]
+  },
+  {
+    "listing": "/blog/categoria/fotografia/index.html",
+    "items": [
+      "/blog/galeria-ejemplo/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/categoria/articulos/index.html",
+    "items": []
   },
   {
     "listing": "/blog/categoria/eventos/index.html",
@@ -16,21 +24,21 @@
     ]
   },
   {
-    "listing": "/blog/categoria/articulos/index.html",
-    "items": []
-  },
-  {
     "listing": "/blog/categoria/libros/index.html",
     "items": [
       "/blog/resena-libro-ejemplo/index.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog/index.html",
     "items": [
-      "/projects/proyecto-3/index.html",
-      "/projects/proyecto-2/index.html",
-      "/projects/proyecto-1/index.html"
+      "/blog/categoria/articulos/index.html",
+      "/blog/categoria/eventos/index.html",
+      "/blog/categoria/fotografia/index.html",
+      "/blog/categoria/libros/index.html",
+      "/blog/galeria-ejemplo/index.html",
+      "/blog/resena-libro-ejemplo/index.html",
+      "/blog/Summit-pais-dig-2026/index.html"
     ]
   },
   {
