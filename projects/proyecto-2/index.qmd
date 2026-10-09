@@ -1,9 +1,9 @@
 ---
-title: "[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes"
+title: "Proyecto 2: Modelo predictivo de abandono de clientes"
 description: "Proyecto de ejemplo — reemplázame con la descripción real de tu proyecto."
 date: "2026-06-01"
 categories: [ejemplo, machine learning, python]
-image: thumbnail.svg
+image: regresion_lineal.png
 ---
 
 > **Proyecto de ejemplo.** Este archivo es un marcador de posición: reemplázalo con tu proyecto real (o borra la carpeta `projects/proyecto-2/`).
