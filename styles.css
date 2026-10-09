@@ -241,27 +241,32 @@ body:has(.hero) #quarto-header.headroom--not-top .navbar {
   padding: 0 1rem;
   border: 2px solid var(--brand-dark);
   border-radius: 8px;
-  transition: border-color 0.3s ease;
+  transition: border-color 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease, transform 0.3s ease;
 }
 
+/* logos slightly muted at rest so the hover can intensify them */
 .tool-card img {
   height: 36px;
   width: auto;
+  filter: grayscale(50%) opacity(0.8);
+  transition: filter 0.3s ease;
 }
 
 .tool-name {
   color: var(--brand-dark);
   font-weight: 600;
   white-space: nowrap;
-  transition: color 0.3s ease;
 }
 
 .tool-card:hover {
-  border-color: var(--brand-light);
+  background-color: rgba(25, 59, 89, 0.08);
+  box-shadow: 0 8px 18px rgba(25, 59, 89, 0.25), 0 0 0 3px rgba(127, 227, 217, 0.45);
+  transform: translateY(-4px) scale(1.05);
 }
 
-.tool-card:hover .tool-name {
-  color: var(--brand-light);
+.tool-card:hover img {
+  filter: none;
 }
 
 @keyframes tools-scroll {
@@ -290,6 +295,10 @@ body:has(.hero) #quarto-header.headroom--not-top .navbar {
 
   .tools-group[aria-hidden="true"] {
     display: none;
+  }
+
+  .tool-card:hover {
+    transform: none;
   }
 }
 
