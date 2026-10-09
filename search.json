@@ -2,14 +2,14 @@
   {
     "objectID": "projects/proyecto-3/index.html",
     "href": "projects/proyecto-3/index.html",
-    "title": "[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI",
+    "title": "Proyecto 3: Dashboard de indicadores en Power BI",
     "section": "",
     "text": "Proyecto de ejemplo. Este archivo es un marcador de posición: reemplázalo con tu proyecto real (o borra la carpeta projects/proyecto-3/)."
   },
   {
     "objectID": "projects/proyecto-1/index.html",
     "href": "projects/proyecto-1/index.html",
-    "title": "[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas",
+    "title": "Proyecto 1: Análisis exploratorio de ventas",
     "section": "",
     "text": "Proyecto de ejemplo. Este archivo es un marcador de posición: reemplázalo con tu proyecto real (o borra la carpeta projects/proyecto-1/)."
   },
@@ -18,14 +18,14 @@
     "href": "index.html",
     "title": "Portafolio_test",
     "section": "",
-    "text": "Magadiel Quilacan\nCientífico de datos especializado en análisis de industrias\n[SUBTÍTULO: frase breve de 1 o 2 líneas con tu experiencia y resultados]"
+    "text": "Magadiel Quilacan\nAnalista de datos\n[SUBTÍTULO: frase breve de 1 o 2 líneas con tu experiencia y resultados]"
   },
   {
     "objectID": "index.html#presentación",
     "href": "index.html#presentación",
     "title": "Portafolio_test",
     "section": "Presentación",
-    "text": "Presentación\n[SALUDO: un párrafo corto presentándote, ej. “¡Hola! Soy Magadiel, …”]\n\n[Perfil o especialidad]: [detalle]\n[Años de experiencia] como [rol]\nFormación en [carrera / institución]\nCertificaciones: [certificación 1], [certificación 2]\nResuelvo problemas de [tipo de problemas]\nDomino [herramienta 1], [herramienta 2] y [herramienta 3]"
+    "text": "Presentación\n¡Hola! Soy Magadiel, …“]\n\n[Perfil o especialidad]: [detalle]\n3 años como analista de datos\nFormación en Ingeniería Comercial\nCertificaciones: Google Advanced Data Analytics, Microsoft Certified Power BI Data Analyst Associate.\nResuelvo problemas de [tipo de problemas]\nDomino Python, SQL y Power BI"
   },
   {
     "objectID": "index.html#stack-tecnológico",
@@ -39,7 +39,7 @@
     "href": "index.html#proyectos",
     "title": "Portafolio_test",
     "section": "Proyectos",
-    "text": "Proyectos\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI\n\n\n\nejemplo\n\npower bi\n\nvisualización\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n1 sept 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes\n\n\n\nejemplo\n\nmachine learning\n\npython\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n1 jun 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas\n\n\n\nejemplo\n\npython\n\neda\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n1 mar 2026\n\n\n\n\n\n\nNo hay resultados\n\n\nVer todos los proyectos"
+    "text": "Proyectos\n\n\n\n\n\n\n\n\n\n\nProyecto 3: Dashboard de indicadores en Power BI\n\n\n\nejemplo\n\npower bi\n\nvisualización\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n1 sept 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nProyecto 2: Modelo predictivo de abandono de clientes\n\n\n\nejemplo\n\nmachine learning\n\npython\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n1 jun 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nProyecto 1: Análisis exploratorio de ventas\n\n\n\nejemplo\n\npython\n\neda\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n1 mar 2026\n\n\n\n\n\n\nNo hay resultados\n\n\nVer todos los proyectos"
   },
   {
     "objectID": "blog/resena-libro-ejemplo/index.html",
@@ -109,12 +109,12 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "[EJEMPLO] Proyecto 3: Dashboard de indicadores en Power BI\n\n\n\nejemplo\n\npower bi\n\nvisualización\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\n1 sept 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes\n\n\n\nejemplo\n\nmachine learning\n\npython\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\n1 jun 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n[EJEMPLO] Proyecto 1: Análisis exploratorio de ventas\n\n\n\nejemplo\n\npython\n\neda\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\n1 mar 2026\n\n\n\n\n\n\nNo hay resultados"
+    "text": "Proyecto 3: Dashboard de indicadores en Power BI\n\n\n\nejemplo\n\npower bi\n\nvisualización\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\n1 sept 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nProyecto 2: Modelo predictivo de abandono de clientes\n\n\n\nejemplo\n\nmachine learning\n\npython\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\n1 jun 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nProyecto 1: Análisis exploratorio de ventas\n\n\n\nejemplo\n\npython\n\neda\n\n\n\nProyecto de ejemplo — reemplázame con la descripción real de tu proyecto.\n\n\n\n\n\n\n1 mar 2026\n\n\n\n\n\n\nNo hay resultados"
   },
   {
     "objectID": "projects/proyecto-2/index.html",
     "href": "projects/proyecto-2/index.html",
-    "title": "[EJEMPLO] Proyecto 2: Modelo predictivo de abandono de clientes",
+    "title": "Proyecto 2: Modelo predictivo de abandono de clientes",
     "section": "",
     "text": "Proyecto de ejemplo. Este archivo es un marcador de posición: reemplázalo con tu proyecto real (o borra la carpeta projects/proyecto-2/)."
   }
