@@ -23,9 +23,9 @@ listing:
 ::: hero-content
 [Magadiel Quilacan]{.hero-title role="heading" aria-level="1"}
 
-[Científico de datos especializado en análisis de industrias]{.hero-usp}
+Analista de Datos · Ciencia de Datos & Machine Learning
 
-[\[SUBTÍTULO: frase breve de 1 o 2 líneas con tu experiencia y resultados\]]{.hero-subtitle}
+[Transformo datos en modelos y decisiones que mejoran el negocio.]{.hero-subtitle}
 :::
 ::::
 
@@ -43,14 +43,14 @@ listing:
 ::: {.g-col-12 .g-col-md-8 .presentacion-text}
 ## Presentación
 
-\[SALUDO: un párrafo corto presentándote, ej. "¡Hola! Soy Magadiel, ..."\]
+¡Hola! Soy Magadiel, analista de datos con 3 años de experiencia y formación en Ingeniería Comercial. Hoy oriento mi carrera hacia la ciencia de datos y el machine learning, desarrollando modelos que ayudan a anticipar resultados y a tomar mejores decisiones de negocio.
 
-- **\[Perfil o especialidad\]**: \[detalle\]
-- **\[Años de experiencia\]** como **\[rol\]**
-- Formación en **\[carrera / institución\]**
-- Certificaciones: **\[certificación 1\]**, **\[certificación 2\]**
-- Resuelvo problemas de **\[tipo de problemas\]**
-- Domino **\[herramienta 1\]**, **\[herramienta 2\]** y **\[herramienta 3\]**
+- Perfil: Analista de datos que combina visión de negocio con modelado estadístico y machine learning.
+- Formación en **Ingeniería Comercial**
+- Visualización y BI: dashboards en Power BI orientados a decisión, no solo a reportes.
+- **Resuelvo problemas de** detección de anomalías, clasificación y automatización de procesos con datos.
+- Certificaciones: Google Advanced Data Analytics, Microsoft Certified Power BI Data Analyst Associate.
+- Domino **Python**, **SQL** y **Power BI**
 :::
 ::::::
 
