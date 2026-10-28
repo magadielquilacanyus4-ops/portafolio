@@ -24,9 +24,9 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/magadielquilacanyus4-ops
+      - icon: linkedin
+        href: https://www.linkedin.com/in/magadiel-quilacan
 format:
   html:
     theme:
