@@ -1,0 +1,35 @@
+/* ---------- Hero particle bloom ---------- */
+/* Add these rules to your styles.css, after the #hero-particles block */
+
+/* canvas brightness + saturation boost for the electric glow feel */
+#hero-particles canvas {
+  filter: brightness(1.4) saturate(1.2);
+}
+
+/* concentrated glow band across the hero centre:
+   two offset ellipses that fake a wave of denser, brighter particles */
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 120% 28% at 45% 52%,
+      rgba(50, 130, 255, 0.10) 0%, transparent 70%),
+    radial-gradient(ellipse 80%  18% at 55% 48%,
+      rgba(80, 170, 255, 0.07) 0%, transparent 60%);
+}
+
+/* tone it down on mobile — fewer particles, weaker glow */
+@media (max-width: 767.98px) {
+  #hero-particles canvas {
+    filter: brightness(1.2);
+  }
+
+  .hero::after {
+    background:
+      radial-gradient(ellipse 120% 35% at 50% 52%,
+        rgba(50, 130, 255, 0.08) 0%, transparent 70%);
+  }
+}
