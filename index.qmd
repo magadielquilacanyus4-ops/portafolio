@@ -1,5 +1,4 @@
 ---
-pagetitle: "Magadiel Quilacan | Ciencia de datos"
 page-layout: article
 toc: false
 resources:
